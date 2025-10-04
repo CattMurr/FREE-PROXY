@@ -1,14 +1,13 @@
 # Configuration Extractor
 
-[![Php](https://img.shields.io/badge/php-3670A0?style=for-the-badge&logo=php&logoColor=ffdd54)](https://github.com/MhdiTaheri/V2rayCollector)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/MhdiTaheri/V2rayCollector/blob/main/LICENSE)
+[![Php](https://img.shields.io/badge/php-3670A0?style=for-the-badge&logo=php&logoColor=ffdd54)](https://github.com/CattMurr/FREE-PROXY)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/CattMurr/FREE-PROXY/blob/main/LICENSE)
 ![PHP version](https://img.shields.io/badge/php-%3E%3D7.0-blue?style=for-the-badge)
-[![GitHub stars](https://img.shields.io/github/stars/MhdiTaheri/V2rayCollector?style=for-the-badge)](https://github.com/MhdiTaheri/V2rayCollector/stargazers)
-![GitHub last commit](https://img.shields.io/github/last-commit/MhdiTaheri/V2rayCollector?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/MhdiTaheri/V2rayCollector?style=for-the-badge)
+[![GitHub stars](https://img.shields.io/github/stars/CattMurr/FREE-PROXY?style=for-the-badge)](https://github.com/CattMurr/FREE-PROXY/stargazers)
+![GitHub last commit](https://img.shields.io/github/last-commit/CattMurr/FREE-PROXY?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/CattMurr/FREE-PROXY?style=for-the-badge)
 
 > [!IMPORTANT]  
-> لینک های ساب تغییر کردن لطفا لینک جدید را بگیرید
 
 This PHP script fetches content from various Telegram channels and extracts VLESS, VMess, Shadowsocks, and Trojan configurations. It then organizes and saves them into separate text files.
 
@@ -32,18 +31,18 @@ Contributions are welcome! If you find any issues or want to enhance the script,
 ## Sub Link
 | Type | Link | Type | Link |
 |--------------|--------------|--------------|--------------|
-| **Vless (Normal)** | [Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/vless) | **Vmess (Normal)** |[Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/vmess)|
-| **ss (Normal)** | [Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/ss) | **Trojan (Normal)** |[Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/trojan)|
-| **tuic (Normal)** | [Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/tuic) | **hysteria (Normal)** |[Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/hysteria)|
-| **MIX (Normal)** | [Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix)|
+| **Vless (Normal)** | [Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/vless) | **Vmess (Normal)** |[Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/vmess)|
+| **ss (Normal)** | [Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/ss) | **Trojan (Normal)** |[Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/trojan)|
+| **tuic (Normal)** | [Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/tuic) | **hysteria (Normal)** |[Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/hysteria)|
+| **MIX (Normal)** | [Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/mix)|
 
 
 | Type | Link | Type | Link |
 |--------------|--------------|--------------|--------------|
-| **Vless (Base64)** | [Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/vlessbase64) | **Vmess (Base64)** |[Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/vmessbase64)|
-| **ss (Base64)** | [Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/ssbase64) | **Trojan (Base64)** |[Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/trojanbase64)|
-| **tuic (Base64)** | [Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/tuicbase64) | **hysteria (Base64)** |[Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/hysteriabase64)|
-| **MIX (Base64)** | [Link](https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mixbase64)|
+| **Vless (Base64)** | [Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/vlessbase64) | **Vmess (Base64)** |[Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/vmessbase64)|
+| **ss (Base64)** | [Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/ssbase64) | **Trojan (Base64)** |[Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/trojanbase64)|
+| **tuic (Base64)** | [Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/tuicbase64) | **hysteria (Base64)** |[Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/hysteriabase64)|
+| **MIX (Base64)** | [Link](https://raw.githubusercontent.com/CattMurr/FREE-PROXY/main/sub/mixbase64)|
 
 ## Channels Used
 
@@ -96,4 +95,4 @@ Contributions are welcome! If you find any issues or want to enhance the script,
 This script is licensed under the [MIT License](LICENSE).
 
 ## Stargazers over time
-[![Stargazers over time](https://starchart.cc/MhdiTaheri/V2rayCollector.svg?variant=adaptive)](https://starchart.cc/MhdiTaheri/V2rayCollector)
+[![Stargazers over time](https://starchart.cc/CattMurr/FREE-PROXY.svg?variant=adaptive)](https://starchart.cc/CattMurr/FREE-PROXY)
