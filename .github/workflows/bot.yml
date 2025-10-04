@@ -6,9 +6,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PUSH_BOT }}
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -21,7 +25,7 @@ jobs:
         run: |
           git config --global user.email "vip.mahditaheri@gmail.com"
           git config --global user.name "MhdiTaheri"
-          git remote set-url origin https://github.com/CattMurr/FREE-PROXY.git
+          git remote set-url origin https://x-access-token:${{ secrets.PUSH_BOT }}@github.com/CattMurr/FREE-PROXY.git
       - name: Push changes with rebase
         run: |
           git add -A
