@@ -1,6 +1,6 @@
 <?php
 include 'channel.php';
-date_default_timezone_set('Asia/Tehran');
+date_default_timezone_set('Europe/Moscow');
 
 function fetchContent($url) {
     $ch = curl_init();
