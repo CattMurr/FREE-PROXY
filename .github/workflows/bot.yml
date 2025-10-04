@@ -23,13 +23,13 @@ jobs:
           git config credential.helper store
       - name: Configure Git
         run: |
-          git config --global user.email "vip.mahditaheri@gmail.com"
-          git config --global user.name "MhdiTaheri"
+          git config --global user.email "ksanchenko-21@edu.ranepa.ru"
+          git config --global user.name "CattMurr"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/CattMurr/FREE-PROXY.git
       - name: Push changes with rebase
         run: |
           git add -A
-          git commit -m "V0.2 🚀 - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "V0.2 🚀 - $(TZ='Europe/Moscow' date '+%Y-%m-%d %H:%M:%S')"
           git pull --rebase origin main
           git push
         env:
