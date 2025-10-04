@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PUSH_BOT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --global user.email "vip.mahditaheri@gmail.com"
           git config --global user.name "MhdiTaheri"
-          git remote set-url origin https://x-access-token:${{ secrets.PUSH_BOT }}@github.com/CattMurr/FREE-PROXY.git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/CattMurr/FREE-PROXY.git
       - name: Push changes with rebase
         run: |
           git add -A
@@ -33,5 +33,4 @@ jobs:
           git pull --rebase origin main
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.PUSH_BOT }}
-          username: Mozilla/5.0
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
