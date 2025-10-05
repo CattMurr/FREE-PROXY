@@ -29,7 +29,7 @@ jobs:
       - name: Push changes with rebase
         run: |
           git add -A
-          git commit -m "V0.2 🚀 - $(TZ='Europe/Moscow' date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "Configs: $(TZ='Europe/Moscow' date '+%Y-%m-%d %H:%M:%S')"
           git pull --rebase origin main
           git push
         env:
